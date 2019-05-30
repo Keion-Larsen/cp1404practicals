@@ -1,14 +1,14 @@
 
 def main():
 
-    entered_pass = get_password()
+    password = get_password()
 
-    entered_pass = check_length(entered_pass)
+    password = check_length(password)
 
-    asterisks_print(entered_pass)
+    print_asterisks(password)
 
 
-def asterisks_print(entered_pass):
+def print_asterisks(entered_pass):
     print("*" * len(entered_pass))
 
 

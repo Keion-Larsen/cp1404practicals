@@ -2,7 +2,7 @@
 CP1404/CP5632 - Practical
 Broken program to determine score status
 """
-
+print(int("Lis"))
 score = float(input("Enter score: "))
 
 if score < 0 or score > 100:
